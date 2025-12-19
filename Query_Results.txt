@@ -1,0 +1,34 @@
+===============USERS================
+ userid |    username     | address 
+--------+-----------------+---------
+      1 | Pratibha Gurung | Pokhara
+(1 row)
+
+
+===============================MOVIE==========================================
+ movieid |        title         | duration | language |  genre  | releasedate 
+---------+----------------------+----------+----------+---------+-------------
+       1 | Avatar: Fire and Ash | 3h       | English  | Fiction | 2025-12-19
+(1 row)
+
+
+=====================THEATER_CITY_HALL=====================
+ hallid |  theatername   |   theatercity    | hallcapacity 
+--------+----------------+------------------+--------------
+      1 | Kumari Cinemas | Pokhara Cineplex |          326
+(1 row)
+
+
+===============================SHOWTIME==============================
+ showtimeid | movieid | hallid |  showdate  | showtime | ticketprice 
+------------+---------+--------+------------+----------+-------------
+          1 |       1 |      1 | 2025-12-21 | Evening  |      390.00
+(1 row)
+
+
+=====================TICKET=====================
+ ticketid | userid | showtimeid | bookingstatus 
+----------+--------+------------+---------------
+        1 |      1 |          1 | Booked
+(1 row)
+
