@@ -1,0 +1,20 @@
+@model KumariCinemas.Web.Models.TheaterHall
+
+@{
+    ViewData["Title"] = "Hall Details";
+}
+
+<h1>Hall Details</h1>
+
+<div class="card mt-3">
+    <div class="card-body">
+        <p><strong>Theater:</strong> @Model.TheaterName</p>
+        <p><strong>City:</strong> @Model.TheaterCity</p>
+        <p><strong>Capacity:</strong> @Model.HallCapacity</p>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model.HallId" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</div>

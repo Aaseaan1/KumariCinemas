@@ -1,0 +1,205 @@
+/* Aurora Borealis Effect */
+.aurora-bg {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 40vh;
+  pointer-events: none;
+  z-index: -1;
+  background: 
+        radial-gradient(ellipse at 20% 80%, #aef6ff 0%, transparent 40%),
+        radial-gradient(ellipse at 50% 100%, #7fffae 0%, transparent 40%),
+        radial-gradient(ellipse at 80% 90%, #ffb3fe 0%, transparent 20%),
+        radial-gradient(ellipse at 60% 80%, #b3ffb3 0%, transparent 10%);
+  opacity: 0.7;
+  animation: auroraMove 8s linear infinite alternate;
+}
+
+@keyframes auroraMove {
+  0% { filter: blur(16px) brightness(1.1); opacity: 0.7; }
+  100% { filter: blur(32px) brightness(1.3); opacity: 0.9; }
+}
+/* Glowing white moon background */
+.moon-bg {
+  position: fixed;
+  top: 110px;
+  right: 60px;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle at 30px 30px, #fff 70%, #e0e0e0 90%, transparent 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 30px 15px #fff8, 0 0 60px 30px #fff4;
+  z-index: -1;
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+.form-label.text-white, label.text-white {
+  color: #fff !important;
+}
+.form-control.text-white {
+  background-color: #222 !important;
+  color: #fff !important;
+}
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #000000 0%, #0d6efd 100%);
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.text-white, .text-white input, .text-white textarea, .text-white select, input.text-white, textarea.text-white, select.text-white {
+  color: #fff !important;
+}
+
+.stars-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.95;
+  background-image:
+    radial-gradient(2.2px 2.2px at 25px 30px, rgba(255, 255, 255, 1), transparent 72%),
+    radial-gradient(1.9px 1.9px at 95px 80px, rgba(255, 255, 255, 0.98), transparent 72%),
+    radial-gradient(1.7px 1.7px at 170px 35px, rgba(255, 255, 255, 0.96), transparent 72%),
+    radial-gradient(1.4px 1.4px at 240px 95px, rgba(255, 255, 255, 0.94), transparent 72%),
+    radial-gradient(1.2px 1.2px at 315px 55px, rgba(255, 255, 255, 0.92), transparent 72%),
+    radial-gradient(1px 1px at 45px 155px, rgba(255, 255, 255, 0.9), transparent 72%),
+    radial-gradient(0.9px 0.9px at 130px 175px, rgba(255, 255, 255, 0.88), transparent 72%),
+    radial-gradient(0.9px 0.9px at 220px 150px, rgba(255, 255, 255, 0.88), transparent 72%),
+    radial-gradient(0.8px 0.8px at 305px 185px, rgba(255, 255, 255, 0.86), transparent 72%);
+  background-size:
+    200px 130px, 200px 130px, 200px 130px, 200px 130px, 200px 130px,
+    200px 130px, 200px 130px, 200px 130px, 200px 130px;
+  animation: twinkle-layer-a 7s ease-in-out infinite;
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.35));
+  will-change: opacity;
+}
+
+.stars-overlay::before,
+.stars-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.stars-overlay::before {
+  opacity: 0.75;
+  background-image:
+    radial-gradient(1.6px 1.6px at 40px 50px, rgba(255, 255, 255, 0.98), transparent 72%),
+    radial-gradient(1.3px 1.3px at 140px 95px, rgba(255, 255, 255, 0.94), transparent 72%),
+    radial-gradient(1px 1px at 260px 45px, rgba(255, 255, 255, 0.9), transparent 72%),
+    radial-gradient(0.9px 0.9px at 320px 130px, rgba(255, 255, 255, 0.86), transparent 72%);
+  background-size: 260px 170px;
+  animation: twinkle-layer-b 9s ease-in-out infinite;
+}
+
+.stars-overlay::after {
+  opacity: 0.65;
+  background-image:
+    radial-gradient(1.8px 1.8px at 55px 30px, rgba(255, 255, 255, 1), transparent 72%),
+    radial-gradient(1.4px 1.4px at 165px 120px, rgba(255, 255, 255, 0.95), transparent 72%),
+    radial-gradient(1.1px 1.1px at 280px 70px, rgba(255, 255, 255, 0.9), transparent 72%),
+    radial-gradient(0.9px 0.9px at 330px 170px, rgba(255, 255, 255, 0.86), transparent 72%);
+  background-size: 300px 200px;
+  animation: twinkle-layer-c 11s ease-in-out infinite;
+}
+
+@keyframes twinkle-layer-a {
+  0%, 25%, 50%, 75%, 100% { opacity: 0.95; }
+  12%, 38%, 63%, 88% { opacity: 0.72; }
+}
+
+@keyframes twinkle-layer-b {
+  0%, 22%, 44%, 66%, 100% { opacity: 0.82; }
+  11%, 33%, 55%, 84% { opacity: 0.62; }
+}
+
+@keyframes twinkle-layer-c {
+  0%, 24%, 48%, 72%, 100% { opacity: 0.72; }
+  13%, 36%, 60%, 86% { opacity: 0.54; }
+}
+
+body > header {
+  position: relative;
+  z-index: 100;
+}
+
+body > .container,
+body > footer {
+  position: relative;
+  z-index: 10;
+}
+
+header,
+header .navbar,
+header .navbar .navbar-collapse,
+header .navbar .navbar-nav,
+header .navbar .nav-item,
+header .navbar .nav-link,
+header .navbar .navbar-toggler,
+header .navbar .navbar-brand {
+  position: relative;
+  z-index: 50;
+  pointer-events: auto;
+}
+
+.footer,
+.footer a {
+  color: #ffffff !important;
+}
+
+.footer {
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  line-height: 60px;
+}
+
+.table,
+.table th,
+.table td,
+.form-label {
+  color: #000000 !important;
+}
+
+.form-control,
+.form-select {
+  color: #111111 !important;
+  background-color: #ffffff !important;
+}
+
+.home-action-btn {
+  min-height: 120px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}

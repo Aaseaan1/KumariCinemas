@@ -1,0 +1,49 @@
+@model KumariCinemas.Web.Models.Showtime
+
+@{
+    ViewData["Title"] = "Edit Showtime";
+}
+
+<h1>Edit Showtime</h1>
+
+<form asp-action="Edit" method="post" class="mt-3">
+    <input type="hidden" asp-for="ShowTimeId" />
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="MovieId" class="form-label">Movie</label>
+        <select asp-for="MovieId" asp-items="ViewBag.Movies" class="form-select"></select>
+        <span asp-validation-for="MovieId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="HallId" class="form-label">Hall</label>
+        <select asp-for="HallId" asp-items="ViewBag.Halls" class="form-select"></select>
+        <span asp-validation-for="HallId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ShowDate" class="form-label"></label>
+        <input asp-for="ShowDate" type="date" class="form-control" />
+        <span asp-validation-for="ShowDate" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ShowTimeName" class="form-label">Time Slot</label>
+        <input asp-for="ShowTimeName" class="form-control" />
+        <span asp-validation-for="ShowTimeName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="TicketPrice" class="form-label"></label>
+        <input asp-for="TicketPrice" class="form-control" />
+        <span asp-validation-for="TicketPrice" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

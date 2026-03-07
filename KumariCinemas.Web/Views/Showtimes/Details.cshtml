@@ -1,0 +1,22 @@
+@model KumariCinemas.Web.Models.Showtime
+
+@{
+    ViewData["Title"] = "Showtime Details";
+}
+
+<h1>Showtime Details</h1>
+
+<div class="card mt-3">
+    <div class="card-body">
+        <p><strong>Movie:</strong> @Model.Movie?.Title</p>
+        <p><strong>Hall:</strong> @Model.Hall?.TheaterCity</p>
+        <p><strong>Date:</strong> @Model.ShowDate.ToString("yyyy-MM-dd")</p>
+        <p><strong>Time Slot:</strong> @Model.ShowTimeName</p>
+        <p><strong>Ticket Price:</strong> @Model.TicketPrice</p>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model.ShowTimeId" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</div>

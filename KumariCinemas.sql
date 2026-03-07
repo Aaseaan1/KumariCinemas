@@ -3,15 +3,14 @@
 -- =====================================================
 
 
-
--- ======================== 
---      TABLE CREATION.     
--- ======================== 
+-- ======================== --
+--      TABLE CREATION.     -- 
+-- ======================== --
 
 CREATE TABLE Users (
-    UserID NUMBER PRIMARY KEY,
-    Username VARCHAR2(50),
-    Address VARCHAR2(100)
+    UserID INT PRIMARY KEY,
+    Username VARCHAR(50),
+    Address VARCHAR(100)
 );
 
 CREATE TABLE Movie (
@@ -49,7 +48,7 @@ CREATE TABLE Ticket (
     ShowtimeID NUMBER NOT NULL,
     BookingStatus VARCHAR2(20),
     CONSTRAINT fk_ticket_user FOREIGN KEY (UserID)
-        REFERENCES App_User(UserID),
+        REFERENCES Users(UserID),
     CONSTRAINT fk_ticket_showtime FOREIGN KEY (ShowtimeID)
         REFERENCES Showtime(ShowTimeID)
 );
@@ -58,7 +57,7 @@ CREATE TABLE Ticket (
 --    DATA INSERTION.       --
 -- ======================== --
 
-INSERT INTO App_User VALUES (1, 'Pratibha Gurung', 'Pokhara');
+INSERT INTO Users VALUES (1, 'Pratibha Gurung', 'Pokhara');
 
 
 INSERT INTO Movie VALUES (
@@ -81,8 +80,12 @@ INSERT INTO Ticket VALUES (1, 1, 1, 'Booked');
 -- ======================== --
 
 SELECT * FROM Users;
+
 SELECT * FROM Movie;
+
 SELECT * FROM Theater_City_Hall;
+
 SELECT * FROM Showtime;
+
 SELECT * FROM Ticket;
 

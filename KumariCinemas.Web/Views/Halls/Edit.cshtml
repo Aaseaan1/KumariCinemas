@@ -1,0 +1,37 @@
+@model KumariCinemas.Web.Models.TheaterHall
+
+@{
+    ViewData["Title"] = "Edit Hall";
+}
+
+<h1>Edit Hall</h1>
+
+<form asp-action="Edit" method="post" class="mt-3">
+    <input type="hidden" asp-for="HallId" />
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="TheaterName" class="form-label"></label>
+        <input asp-for="TheaterName" class="form-control" />
+        <span asp-validation-for="TheaterName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="TheaterCity" class="form-label"></label>
+        <input asp-for="TheaterCity" class="form-control" />
+        <span asp-validation-for="TheaterCity" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="HallCapacity" class="form-label"></label>
+        <input asp-for="HallCapacity" class="form-control" />
+        <span asp-validation-for="HallCapacity" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

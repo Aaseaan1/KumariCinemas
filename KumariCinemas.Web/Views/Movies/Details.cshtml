@@ -1,0 +1,22 @@
+@model KumariCinemas.Web.Models.Movie
+
+@{
+    ViewData["Title"] = "Movie Details";
+}
+
+<h1>Movie Details</h1>
+
+<div class="card mt-3">
+    <div class="card-body">
+        <p><strong>Title:</strong> @Model.Title</p>
+        <p><strong>Language:</strong> @Model.Language</p>
+        <p><strong>Genre:</strong> @Model.Genre</p>
+        <p><strong>Duration:</strong> @Model.Duration</p>
+        <p><strong>Release Date:</strong> @Model.ReleaseDate.ToString("yyyy-MM-dd")</p>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model.MovieId" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</div>
