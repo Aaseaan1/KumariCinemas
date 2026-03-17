@@ -1,5 +1,3 @@
-using KumariCinemas.Web.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace KumariCinemas.Web.Data;
 
@@ -102,12 +100,12 @@ public class CinemaDbContext(DbContextOptions<CinemaDbContext> options) : DbCont
             },
             new Movie
             {
-                MovieId = 2,
-                Title = "Dune: Part Two",
-                Duration = "2h 46m",
+                MovieId = 3,
+                Title = "Sully: Miracle On The Hudson",
+                Duration = "1hr 35mins",
                 Language = "English",
-                Genre = "Sci-Fi",
-                ReleaseDate = new DateTime(2024, 3, 1)
+                Genre = "Drama-History",
+                ReleaseDate = new DateTime(2016, 9, 9)
             }
         );
 

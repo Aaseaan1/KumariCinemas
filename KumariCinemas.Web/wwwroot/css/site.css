@@ -1,3 +1,19 @@
+/* White text for Edit Movie form */
+.edit-movie-form label, .edit-movie-form input {
+  color: #fff !important;
+}
+.edit-movie-form input {
+  background-color: #222 !important;
+}
+.edit-movie-form select {
+  color: #fff !important;
+  background-color: #222 !important;
+  border: 1px solid #444 !important;
+}
+.edit-movie-form option {
+  color: #fff !important;
+  background-color: #222 !important;
+}
 /* Aurora Borealis Effect */
 .aurora-bg {
   position: fixed;

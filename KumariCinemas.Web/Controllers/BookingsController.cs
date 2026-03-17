@@ -16,7 +16,7 @@ public class BookingsController(CinemaDbContext context) : Controller
             .ThenInclude(s => s!.Movie)
             .Include(t => t.Showtime)
             .ThenInclude(s => s!.Hall)
-            .OrderByDescending(t => t.TicketId)
+            .OrderBy(t => t.TicketId)
             .ToListAsync();
 
         return View(tickets);

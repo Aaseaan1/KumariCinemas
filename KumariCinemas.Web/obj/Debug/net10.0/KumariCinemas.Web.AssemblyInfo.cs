@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KumariCinemas.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5d7a7d571b66b9b6c76babe504454bb80f1f532")]
 [assembly: System.Reflection.AssemblyProductAttribute("KumariCinemas.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KumariCinemas.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

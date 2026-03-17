@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/AASHU'S HD/3RD YEAR/DAWD/KumariCinemas.Web/KumariCinemas.Web.csproj": {}
+    "/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/KumariCinemas.Web.csproj": {}
   },
   "projects": {
-    "/Volumes/AASHU'S HD/3RD YEAR/DAWD/KumariCinemas.Web/KumariCinemas.Web.csproj": {
+    "/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/KumariCinemas.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/AASHU'S HD/3RD YEAR/DAWD/KumariCinemas.Web/KumariCinemas.Web.csproj",
+        "projectUniqueName": "/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/KumariCinemas.Web.csproj",
         "projectName": "KumariCinemas.Web",
-        "projectPath": "/Volumes/AASHU'S HD/3RD YEAR/DAWD/KumariCinemas.Web/KumariCinemas.Web.csproj",
+        "projectPath": "/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/KumariCinemas.Web.csproj",
         "packagesPath": "/Users/aaseaansiwakoti/.nuget/packages/",
-        "outputPath": "/Volumes/AASHU'S HD/3RD YEAR/DAWD/KumariCinemas.Web/obj/",
+        "outputPath": "/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/aaseaansiwakoti/.nuget/NuGet/NuGet.Config"
