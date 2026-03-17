@@ -1,4 +1,8 @@
 
+using Microsoft.EntityFrameworkCore;
+using KumariCinemas.Web.Models;
+using System;
+
 namespace KumariCinemas.Web.Data;
 
 public class CinemaDbContext(DbContextOptions<CinemaDbContext> options) : DbContext(options)
