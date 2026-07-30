@@ -15,6 +15,8 @@ public class MovieBookingSummary
 
     public int BookedTickets { get; set; }
 
+    public int PendingsTickets { get; set; }
+
     public int CancelledTickets { get; set; }
 }
 

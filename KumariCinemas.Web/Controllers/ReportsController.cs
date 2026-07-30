@@ -22,6 +22,7 @@ public class ReportsController(CinemaDbContext context) : Controller
                 MovieTitle = group.Key,
                 TotalTickets = group.Count(),
                 BookedTickets = group.Count(t => t.BookingStatus == "Booked"),
+                PendingsTickets = group.Count(t => t.BookingStatus == "Pending"),
                 CancelledTickets = group.Count(t => t.BookingStatus == "Cancelled")
             })
             .OrderBy(summary => summary.MovieTitle)

@@ -6,56 +6,64 @@
 
 <h1>Reports</h1>
 
-<h3 class="mt-4">Bookings Per Movie</h3>
-<table class="table table-striped">
-    <thead>
+<hr />
+
+<h3>Bookings Per Movie</h3>
+
+<table class="table table-striped table-bordered">
+    <thead class="table-dark">
         <tr>
             <th>Movie</th>
             <th>Total Tickets</th>
             <th>Booked</th>
+            <th>Pending</th>
             <th>Cancelled</th>
         </tr>
     </thead>
     <tbody>
-    @foreach (var row in Model.BookingsPerMovie)
-    {
-        <tr>
-            <td>@row.MovieTitle</td>
-            <td>@row.TotalTickets</td>
-            <td>@row.BookedTickets</td>
-            <td>@row.CancelledTickets</td>
-        </tr>
-    }
+        @foreach (var row in Model.BookingsPerMovie)
+        {
+            <tr>
+                <td>@row.MovieTitle</td>
+                <td>@row.TotalTickets</td>
+                <td>@row.BookedTickets</td>
+                <td>@row.PendingsTickets</td>
+                <td>@row.CancelledTickets</td>
+            </tr>
+        }
     </tbody>
 </table>
 
-<h3 class="mt-4">Revenue Per Showtime</h3>
-<table class="table table-striped">
-    <thead>
+<hr />
+
+<h3>Revenue Per Showtime</h3>
+
+<table class="table table-striped table-bordered">
+    <thead class="table-dark">
         <tr>
             <th>Showtime ID</th>
             <th>Movie</th>
             <th>Hall</th>
             <th>Date</th>
             <th>Time Slot</th>
-            <th>Price</th>
+            <th>Ticket Price</th>
             <th>Booked Count</th>
-            <th>Revenue</th>
+            <th>Total Revenue</th>
         </tr>
     </thead>
     <tbody>
-    @foreach (var row in Model.RevenuePerShowtime)
-    {
-        <tr>
-            <td>@row.ShowtimeId</td>
-            <td>@row.MovieTitle</td>
-            <td>@row.HallCity</td>
-            <td>@row.ShowDate.ToString("yyyy-MM-dd")</td>
-            <td>@row.ShowTimeName</td>
-            <td>@row.TicketPrice</td>
-            <td>@row.BookedCount</td>
-            <td>@row.Revenue</td>
-        </tr>
-    }
+        @foreach (var row in Model.RevenuePerShowtime)
+        {
+            <tr>
+                <td>@row.ShowtimeId</td>
+                <td>@row.MovieTitle</td>
+                <td>@row.HallCity</td>
+                <td>@row.ShowDate.ToString("yyyy-MM-dd")</td>
+                <td>@row.ShowTimeName</td>
+                <td>@row.TicketPrice.ToString("C")</td>
+                <td>@row.BookedCount</td>
+                <td>@row.Revenue.ToString("C")</td>
+            </tr>
+        }
     </tbody>
 </table>

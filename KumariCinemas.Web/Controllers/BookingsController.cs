@@ -228,7 +228,7 @@ public class BookingsController(CinemaDbContext context) : Controller
 
     private void PopulateStatusDropdown(string? selectedStatus = null)
     {
-        var statuses = new[] { "Booked", "Cancelled" };
+        var statuses = new[] { "Booked", "Cancelled", "Pending" };
         ViewBag.Statuses = new SelectList(statuses, selectedStatus);
     }
 }

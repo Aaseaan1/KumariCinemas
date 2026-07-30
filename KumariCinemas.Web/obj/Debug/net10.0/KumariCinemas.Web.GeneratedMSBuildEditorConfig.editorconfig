@@ -17,147 +17,164 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
+build_property.EntryPointFilePath = 
 build_property.RootNamespace = KumariCinemas.Web
 build_property.RootNamespace = KumariCinemas.Web
-build_property.ProjectDir = /Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/
+build_property.ProjectDir = /Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.RazorLangVersion = 9.0
+build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web
+build_property.MSBuildProjectDirectory = /Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Bookings/Create.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Bookings/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZ3MvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Bookings/Delete.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Bookings/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZ3MvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Bookings/Details.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Bookings/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZ3MvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Bookings/Edit.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Bookings/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZ3MvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Bookings/Index.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Bookings/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZ3MvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Halls/Create.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Halls/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGFsbHMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Halls/Delete.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Halls/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGFsbHMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Halls/Details.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Halls/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGFsbHMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Halls/Edit.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Halls/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGFsbHMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Halls/Index.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Halls/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGFsbHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Home/Index.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Home/Privacy.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Movies/Create.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Movies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Movies/Delete.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Movies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Movies/Details.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Movies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Movies/Edit.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Movies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Movies/Index.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Movies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Reports/Index.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Reports/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVwb3J0cy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Shared/Error.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Showtimes/Create.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Showtimes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Showtimes/Delete.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Showtimes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Showtimes/Details.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Showtimes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Showtimes/Edit.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Showtimes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Showtimes/Index.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Showtimes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvd3RpbWVzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Users/Create.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Users/Delete.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Users/Details.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Users/Edit.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Users/Index.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/_ViewImports.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/ViewComplex/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlld0NvbXBsZXgvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/ViewComplex/MovieTheaterCityHallOccupancy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlld0NvbXBsZXgvTW92aWVUaGVhdGVyQ2l0eUhhbGxPY2N1cGFuY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/ViewComplex/TheaterCityHallMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlld0NvbXBsZXgvVGhlYXRlckNpdHlIYWxsTW92aWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/ViewComplex/UserTicket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlld0NvbXBsZXgvVXNlclRpY2tldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/_ViewStart.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/AASHU'S HD/3RD YEAR/Data & Web Development/KumariCinemas.Web/Views/Shared/_Layout.cshtml]
+[/Users/aaseaansiwakoti/Desktop/Islington College Resit/DW/CW1/KumariCinemas-main/KumariCinemas.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gdfovkpimi

@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "View Complex";
+}
+
+<div class="d-flex flex-column justify-content-center align-items-center text-center"
+     style="min-height: calc(100vh - 200px); padding-top: 20px; padding-bottom: 20px;">
+
+    <h1 class="display-4 fw-bold text-white mb-3">
+        View Complex
+    </h1>
+
+    <p class="lead text-white mb-5" style="max-width:700px;">
+        Choose a report below to explore detailed insights from the Kumari Cinemas database.
+    </p>
+
+    <div class="row g-4 mb-5">
+
+        <div class="col-md-4">
+            <a class="card text-white text-decoration-none h-100 shadow home-action-btn"
+               asp-action="UserTicket" style="background: linear-gradient(135deg, #0d6efd, #6610f2);">
+                <div class="card-body text-center py-5">
+                    <h2 class="card-title fw-bold">User Ticket</h2>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a class="card text-white text-decoration-none h-100 shadow home-action-btn"
+               asp-action="TheaterCityHallMovie" style="background: linear-gradient(135deg, #198754, #0dcaf0);">
+                <div class="card-body text-center py-5">
+                    <h2 class="card-title fw-bold">Theater City Hall Movie</h2>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a class="card text-white text-decoration-none h-100 shadow home-action-btn"
+               asp-action="MovieTheaterCityHallOccupancy" style="background: linear-gradient(135deg, #fd7e14, #dc3545);">
+                <div class="card-body text-center py-5">
+                    <h2 class="card-title fw-bold">Movie Theater City Hall Occupancy</h2>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+</div>
